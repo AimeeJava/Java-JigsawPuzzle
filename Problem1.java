@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class Problem1 {
     private static int W;
     private static int H;
+    //adjust the first and the last row to make top and bottom is 0
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         W = in.nextInt();
